@@ -1,0 +1,19 @@
+# ============================================================
+#  Smart URL Reputation Checker — Python Dependencies
+#  File : requirements.txt
+#  Usage: pip install -r requirements.txt
+# ============================================================
+
+# Web framework
+flask>=3.0.0
+
+# HTTP requests & redirect following
+requests>=2.31.0
+
+# TLD / subdomain extraction (offline database)
+tldextract>=5.1.0
+
+# ── Optional / development extras ────────────────────────────
+# Jupyter Notebook support (only needed if running .ipynb)
+# notebook>=7.0.0
+# ipykernel>=6.29.0
